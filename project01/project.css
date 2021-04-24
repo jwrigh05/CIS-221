@@ -10,7 +10,7 @@
   
  
 
-.banner { 
+.banner { background-repeat: repeat-x;
 		  margin: auto;
 		  padding: 20x;
 		  grid-template-columns: minmax(150px) 1fr;
