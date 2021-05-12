@@ -1,0 +1,112 @@
+.parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+	grid-template-columns: min-height(100%) 1fr min-height(100%);
+
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+
+  }
+  
+ 
+
+.banner { background-repeat: repeat-x;
+		  margin: auto;
+		  padding: 20x;
+		  grid-template-columns: minmax(150px) 1fr;
+	
+	
+}
+
+#main { 
+		margin: auto;
+		padding: auto;
+		background-size: auto;
+	
+	
+	
+}
+
+h1 { text-align: center;
+	
+	
+}
+
+
+ header {
+    padding: 2em;
+    grid-column: 1 / 4;
+	background-color: #E9E816;
+
+  }
+
+ .left-side {
+    grid-column: 1 / 2;
+	background-color: #E9E8AC;
+	padding: 2em;
+	display: block;
+	width: 8em; 
+  }
+
+a:link {color: black;}
+a:visted {color:red;}
+a:hover {color: white;}
+a:active {color: purple}
+	
+ main {
+    grid-column: 2 / 3;
+	background-color: #CDCC98;
+	
+  }
+
+ .right-side {
+    grid-column: 3 / 4;
+	background-color: #E9E8AC;
+  }
+
+ footer {
+    grid-column: 1 / 4;
+	padding: 2em;
+	background-color:#E9E816;
+	font-style: italic;
+  }
+  
+  form { font-family: arial, sans-serif;
+	   padding: 10px;
+	   display: block;
+	   padding: auto;
+	
+	
+}
+
+label {
+	float: left;
+	width: 100px;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+	
+}
+
+input, textarea {
+	margin-top: 10px;
+	display: block;
+	margin-left: 110px;
+	
+}
+
+input {
+	margin: .4rem;
+}
+
+#mysubmit {
+	margin-left: 110px;
+	float: right;
+	
+}
+
+
+
+
